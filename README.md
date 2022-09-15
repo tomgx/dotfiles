@@ -20,63 +20,66 @@
 
 ## - install -
 
-### requirements
+### - requirements -
+```
+sudo pacman -S i3-gaps polybar zsh git wget xorg-server xorg-xinit ttf-dejavu dmenu rxvt-unicode feh
+```
 
-i3-gaps<br/>
-polybar<br/>
-zsh<br/>
-git<br/>
-wget<br/>
-xorg-server<br/>
-xorg-xinit<br/>
-ttf-dejavu<br/>
-dmenu<br/>
-rxvt-unicode<br/>
-feh<br/>
+### - optional -
+```
+sudo pacman -S neofetch firefox thunar vlc brightnessctl alsa-utils
+```
 
-
-### optional
-
-neofetch<br/>
-firefox<br/>
-thunar<br/>
-vlc<br/>
-
-
-### zsh install 
+### - zsh install - 
 
 zsh:<br/>
-```sudo pacman -S zsh```
+```
+sudo pacman -S zsh
+```
 
 oh-my-zsh:<br/>
-```sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+```
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 
-### zsh plugins
+### - zsh plugins -
 
 syntax-highlighting:<br/>
-```git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting```
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
 
 autosuggestions:<br/>
-```git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions```
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
 
 zsh-z:<br/>
-```git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z```
+```
+git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
+```
 
 fzf:<br/>
-```git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf```
+```
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+```
 
-```~/.fzf/install```
+```
+~/.fzf/install
+```
 
 make zsh default:<br/>
-```chsh -s $(which zsh)```
+```
+chsh -s $(which zsh)
+```
 
 
-### move files
+### - move files -
 
 `move oh-my-zsh-theme/gnzh.zh-theme to ~/.oh-my-zsh/themes/`
 
-then move everything else to $HOME
+then move everything else from dotfiles/ to $HOME
 
-### run
+### - run -
 `startx`
