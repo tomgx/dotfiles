@@ -78,3 +78,5 @@ make zsh default:<br/>
 
 then move everything else to $HOME
 
+### run
+`startx`
