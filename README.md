@@ -1,4 +1,4 @@
-# dotfiles
+## dotfiles
 <details>
 <summary><b>PREVIEW 1</b></summary>
 <img src="https://i.imgur.com/ssvaiXR.png">
@@ -18,9 +18,9 @@
 <b>Font:</b> ttf-dejavu<br/>
 
 
-# install
+## - install -
 
-## requirements
+### requirements
 
 i3-gaps<br/>
 polybar<br/>
@@ -35,7 +35,7 @@ rxvt-unicode<br/>
 feh<br/>
 
 
-## optional
+### optional
 
 neofetch<br/>
 firefox<br/>
@@ -43,7 +43,7 @@ thunar<br/>
 vlc<br/>
 
 
-## zsh install 
+### zsh install 
 
 zsh:<br/>
 ```sudo pacman -S zsh```
@@ -52,7 +52,7 @@ oh-my-zsh:<br/>
 ```sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
 
 
-## zsh plugins
+### zsh plugins
 
 syntax-highlighting:<br/>
 ```git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting```
@@ -72,7 +72,7 @@ make zsh default:<br/>
 ```chsh -s $(which zsh)```
 
 
-## move files
+### move files
 
 `move oh-my-zsh-theme/gnzh.zh-theme to ~/.oh-my-zsh/themes/`
 
