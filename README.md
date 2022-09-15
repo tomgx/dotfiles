@@ -67,7 +67,7 @@ make zsh default:<br/>
 
 ## move files
 
-`move oh-my-zsh-theme/theme/gnzh.zh-theme to ~/.oh-my-zsh/themes/`
+`move oh-my-zsh-theme/gnzh.zh-theme to ~/.oh-my-zsh/themes/`
 
 then move everything else to $HOME
 
