@@ -27,7 +27,7 @@ sudo pacman -S i3-gaps polybar git wget xorg-server xorg-xinit ttf-dejavu dmenu 
 
 ### - optional -
 ```
-sudo pacman -S neofetch firefox thunar vlc brightnessctl alsa-utils
+sudo pacman -S neofetch firefox thunar vlc brightnessctl alsa-utils tlp powertop streamlink
 ```
 
 ### - zsh install - 
