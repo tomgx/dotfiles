@@ -2,13 +2,13 @@
 i3-gaps
 
 
-OS: Arch Linux
-WM: i3-gaps
-Terminal: urxvt
-Bar: polybar
-Shell: zsh
-Compositor: picom
-Font: ttf-dejavu
+OS: Arch Linux<br/>
+WM: i3-gaps<br/>
+Terminal: urxvt<br/>
+Bar: polybar<br/>
+Shell: zsh<br/>
+Compositor: picom<br/>
+Font: ttf-dejavu<br/>
 
 
 # install
