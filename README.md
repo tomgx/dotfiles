@@ -11,56 +11,63 @@ Compositor: picom
 Font: ttf-dejavu
 
 
-## install
+# install
 
-# requirements
+## requirements
 
-i3-gaps
-polybar
-zsh
-git
-wget
-xorg-server
-xorg-xinit
-ttf-dejavu
-dmenu
-rxvt-unicode
-feh
-
-
-# optional
-
-neofetch
-firefox
-thunar
-vlc
+i3-gaps<br/>
+polybar<br/>
+zsh<br/>
+git<br/>
+wget<br/>
+xorg-server<br/>
+xorg-xinit<br/>
+ttf-dejavu<br/>
+dmenu<br/>
+rxvt-unicode<br/>
+feh<br/>
 
 
-# zsh install 
+## optional
 
-`sudo pacman -S zsh`
-
-oh-my-zsh: `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-
-
-# zsh plugins
-
-syntax-highlighting: `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-
-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-
-zsh-z: `git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z`
-
-fzf: `git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf`
-
-`~/.fzf/install`
-
-make zsh default: `chsh -s $(which zsh)`
+neofetch<br/>
+firefox<br/>
+thunar<br/>
+vlc<br/>
 
 
-# move files
+## zsh install 
 
-move oh-my-zsh-theme/theme/gnzh.zh-theme to ~/.oh-my-zsh/themes/
+zsh:<br/>
+```sudo pacman -S zsh```
+
+oh-my-zsh:<br/>
+```sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+
+
+## zsh plugins
+
+syntax-highlighting:<br/>
+```git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting```
+
+autosuggestions:<br/>
+```git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions```
+
+zsh-z:<br/>
+```git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z```
+
+fzf:<br/>
+```git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf```
+
+```~/.fzf/install```
+
+make zsh default:<br/>
+```chsh -s $(which zsh)```
+
+
+## move files
+
+`move oh-my-zsh-theme/theme/gnzh.zh-theme to ~/.oh-my-zsh/themes/`
 
 then move everything else to $HOME
 
