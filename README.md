@@ -1,14 +1,21 @@
 # dotfiles
-i3-gaps
+<details>
+<summary><b>PREVIEW 1</b></summary>
+<img src="https://i.imgur.com/ssvaiXR.png">
+</details>
+<details>
+<summary><b>PREVIEW 2</b></summary>
+<img src="https://i.imgur.com/cklrNdr.png">
+</details>
 
 
-OS: Arch Linux<br/>
-WM: i3-gaps<br/>
-Terminal: urxvt<br/>
-Bar: polybar<br/>
-Shell: zsh<br/>
-Compositor: picom<br/>
-Font: ttf-dejavu<br/>
+<b>OS:</b> Arch Linux<br/>
+<b>WM:</b> i3-gaps<br/>
+<b>Terminal:</b> urxvt<br/>
+<b>Bar:</b> polybar<br/>
+<b>Shell:</b> zsh<br/>
+<b>Compositor:</b> picom<br/>
+<b>Font:</b> ttf-dejavu<br/>
 
 
 # install
