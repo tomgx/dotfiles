@@ -22,7 +22,7 @@
 
 ### - requirements -
 ```
-sudo pacman -S i3-gaps polybar zsh git wget xorg-server xorg-xinit ttf-dejavu dmenu rxvt-unicode feh
+sudo pacman -S i3-gaps polybar git wget xorg-server xorg-xinit ttf-dejavu dmenu rxvt-unicode feh
 ```
 
 ### - optional -
@@ -69,17 +69,24 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 ```
 
-make zsh default:<br/>
-```
-chsh -s $(which zsh)
-```
-
 
 ### - move files -
 
-`move oh-my-zsh-theme/gnzh.zh-theme to ~/.oh-my-zsh/themes/`
+```
+git clone https://github.com/tomgx/dotfiles
+```
 
-then move everything else from dotfiles/ to $HOME
+```
+cd dotfiles
+```
+
+```
+mv oh-my-zsh-theme/gnzh.zsh-theme ~/.oh-my-zsh/themes/
+```
+
+```
+mv .config wallpaper .Xresources .bash_profile .bashrc .xinitrc .zshrc -t $HOME
+```
 
 ### - run -
 `startx`
