@@ -185,11 +185,12 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 
-for_window [class=".*"] border pixel 2
+for_window [class=".*"] border pixel 0
 gaps inner 5
-gaps outer 5
+gaps outer 0
+gaps top -5
 
-exec_always [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
-exec_always feh --bg-fill $HOME/wallpaper/rei.jpg
+exec_always --no-startup-id [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+exec_always --no-startup-id feh --bg-fill $HOME/wallpaper/rei.jpg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always picom
+exec_always --no-startup-id picom
