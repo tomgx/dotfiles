@@ -1,11 +1,11 @@
 ## dotfiles
 <details>
 <summary><b>PREVIEW 1</b></summary>
-<img src="https://i.imgur.com/ssvaiXR.png">
+<img src="https://i.imgur.com/PSfFgdc.png">
 </details>
 <details>
 <summary><b>PREVIEW 2</b></summary>
-<img src="https://i.imgur.com/cklrNdr.png">
+<img src="https://i.imgur.com/8XbAz96.png">
 </details>
 
 
@@ -27,7 +27,7 @@ sudo pacman -S i3-gaps polybar git wget xorg-server xorg-xinit ttf-dejavu dmenu 
 
 ### - optional -
 ```
-sudo pacman -S neofetch firefox thunar vlc aribb24 brightnessctl alsa-utils tlp powertop streamlink
+sudo pacman -S neovim neofetch firefox thunar vlc aribb24 brightnessctl alsa-utils tlp powertop streamlink
 ```
 
 ### - zsh install - 
