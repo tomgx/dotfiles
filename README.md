@@ -1,11 +1,11 @@
 ## dotfiles
 <details>
 <summary><b>PREVIEW 1</b></summary>
-<img src="https://i.imgur.com/PSfFgdc.png">
+<img src="https://i.imgur.com/gFp9HRI.png">
 </details>
 <details>
 <summary><b>PREVIEW 2</b></summary>
-<img src="https://i.imgur.com/8XbAz96.png">
+<img src="https://i.imgur.com/a2i7w9e.png">
 </details>
 
 
