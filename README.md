@@ -24,6 +24,12 @@
 ```
 sudo pacman -S i3-gaps polybar git wget xorg-server xorg-xinit ttf-dejavu dmenu rxvt-unicode feh
 ```
+#### - font with icons -
+`https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono`<br/><br/>
+or install from AUR
+```
+yay -S nerd-fonts-dejavu-complete
+```
 
 ### - optional -
 ```
